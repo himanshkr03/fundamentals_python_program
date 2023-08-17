@@ -1,0 +1,8 @@
+print("read the first three lines-line by line")
+a=open(r'F:\hr.txt',"r")
+c=a.readline()
+print(c,end=" ")
+d=a.readline()
+print(d,end=" ")
+e=a.readline()
+print(e,end=" ")

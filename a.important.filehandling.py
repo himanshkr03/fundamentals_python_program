@@ -1,0 +1,6 @@
+a=open(r'F:\hr.txt',"r")
+b=open(r'F:\hr2.txt',"w")
+s=a.readlines()
+b.writelines(s)
+a.close()
+b.close()
